@@ -1,21 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Itim&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
 
-body{
+
+body, html{
     background-color: #d5e3f0;
-    font-family: "Sour Gummy", sans-serif;;
+    font-family: "Sour Gummy", sans-serif;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-div.main-container {
-    background-color: white;
-    border-radius: 1.2em;
-    margin: auto;
-    width: 20%;
-    transform: translateY(18%);
-    text-align: center;
-}
-.main-container{
+div.main-container{
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    border-radius: 1.2em;
+    max-width: 20em; /*Para hacerlo web responsive utilizamos el max-width */
+    text-align: center;
 }
 
 img {
@@ -24,9 +25,9 @@ img {
 }
 
 p strong{
-    font-size: 25px;
+    font-size: 1.3em;
 }
 
 p {
-    font-size: 20px;
+    font-size: 1.2em;
 }
