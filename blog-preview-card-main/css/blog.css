@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Itim&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+body, html{
+    background-color: rgb(238, 209, 96);
+    font-family: "Faculty Glyphic", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    line-height: 2em;
+}
+
+div.main-container{
+    background-color: white;
+    border-radius: 1.2em;
+    padding: 20px;
+    box-shadow: 10px 10px 0px rgba(0,0,0,1);
+    max-width: 20em;
+    border: 1px solid black;
+}
+
+.img-container{
+    border-radius: 1.2em;
+    width: 100%;
+}
+
+div.learn{
+    background-color: rgb(238, 209, 96);
+    width: 30%;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+p{
+    font-size: 14px;
+}
+
+p.text{
+    color: grey;
+}
+
+.avatar{
+    display: flex;
+    align-items: center;
+}
+
+p.Greg{
+    margin-left: 20px;
+}
+
+img.greg{
+    width: 13%;
+    height: 13%;
+    border-radius: 50%;
+}
