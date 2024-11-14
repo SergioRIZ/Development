@@ -60,3 +60,7 @@ span{
     list-style-position: inside;
     margin-bottom: 4em;
 }
+
+li {
+line-height: 2em;
+}
