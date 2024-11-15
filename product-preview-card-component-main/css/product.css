@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Faculty+Glyphic&family=Itim&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Faculty+Glyphic&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Itim&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap');
+
+@media (min-width: 48em) {
+main{
+    flex-direction: row;
+}
+
+}
+
+body, html{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    height: 100%;
+    background-color: hsl(30, 38%, 92%);
+    font-family: "Montserrat", sans-serif;
+    color: hsl(228, 12%, 48%);
+}
+
+
+.main-container{
+    max-width: 47em;
+}
+
+img{
+    width: 50%;
+    border-radius: 1.2em 0 0 1.2em;
+    float: left;
+}
+
+.content{
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    border-radius: 0 1.2em 1.2em 0;
+}
+
+h1 {
+    font-size: 1em;
+    font-weight: 300;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.4em;
+    
+}
+
+h2 {
+    font-family: "Fraunces", serif;
+    font-size: 2.5em;
+    color: black;
+    margin-top: 0em;
+
+}
+
+p{
+    font-weight: 500;
+    line-height: 2em;
+    margin-top: -1em;
+    margin-right: 2em;
+}
+
+.price{
+    font-family: "Fraunces", serif;
+    font-size: 2.5em;
+    font-weight: 700;
+    color: hsl(158, 36%, 37%);
+}
+
+.price span {
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+    font-size: 0.4em;
+    margin-left: 1.5em;
+    
+}
+
+input {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1em;
+    padding: 1.2em;
+    border-radius: 0.5em;
+    background-color: hsl(158, 36%, 37%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+    cursor: pointer;
+    margin-top: 2em;
+    font-weight: 600;
+}
+
+input:hover {
+    
+}
