@@ -15,7 +15,7 @@ body, html {
     background-color: white;
     border-radius: 1.2em;
     padding: 50px;
-    max-width: 50em;
+    max-width: 40em;
     color: hsl(30, 10%, 34%);
 }
 
@@ -54,13 +54,36 @@ span{
 }
 
 .preparation{
-    margin-left: 2em;
     line-height: 2em;
-    margin-top: -1em;
+    margin-top: -0.5em;
     list-style-position: inside;
     margin-bottom: 4em;
 }
 
-li {
+.preparation::marker{
+    color: hsl(332, 51%, 32%);
+    font-weight: bold;
+}
+
+ol li, ul li {
 line-height: 2em;
+position: relative;
+padding-left: 1em;
+}
+
+li::marker{
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+table{
+    margin-left: 3em;
+    line-height: 3.5em;
+    width: 90%;
+}
+
+.color {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+
 }
