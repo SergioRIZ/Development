@@ -51,17 +51,25 @@ p {
     position: absolute;
 }
 
+svg{
+
+}
+
 button {
-    font-family: "Montserrat", sans-serif;
-    font-size: 1em;
-    padding: 1.2em;
-    border-radius: 0.5em;
-    background-color: hsl(158, 36%, 37%);
-    color: hsl(0, 0%, 100%);
-    border: none;
-    cursor: pointer;
-    margin-top: 2em;
-    font-weight: 600;
+ display: flex; /* Usamos flexbox para organizar elementos internos */
+  align-items: center; /* Alinea icono y texto verticalmente */
+  justify-content: center; /* Alinea horizontalmente si es necesario */
+  gap: 0.5em; /* Espacio entre el icono y el texto */
+  padding: 1em;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1em;
+  background-color: hsl(158, 36%, 37%);
+  color: white;
+  border: none;
+  border-radius: 0.5em;
+  cursor: pointer;
+  margin-top: 2em;
+  font-weight: 600;
 }
 
 button:hover {
