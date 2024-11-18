@@ -8,3 +8,5 @@ https://neov10.github.io/Development/blog-preview-card-main/index.html
 https://neov10.github.io/Development/social-links-profile-main/index.html
 
 https://neov10.github.io/Development/recipe-page-main/index.html
+
+https://neov10.github.io/Development/product-preview-card-component-main/index.html
