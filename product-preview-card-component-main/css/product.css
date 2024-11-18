@@ -56,10 +56,10 @@ svg{
 }
 
 button {
- display: flex; /* Usamos flexbox para organizar elementos internos */
-  align-items: center; /* Alinea icono y texto verticalmente */
-  justify-content: center; /* Alinea horizontalmente si es necesario */
-  gap: 0.5em; /* Espacio entre el icono y el texto */
+ display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  gap: 0.5em; 
   padding: 1em;
   font-family: "Montserrat", sans-serif;
   font-size: 1em;
