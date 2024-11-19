@@ -19,7 +19,6 @@ body, html{
     flex-direction: column;
 }
 
-
 h1 {
     font-size: 2em;
     font-weight: 200;
@@ -44,8 +43,6 @@ p{
     margin-bottom: 2em;
     font-size: 15px;
 }
-
-
 
 .description{
     text-align: center;
@@ -102,7 +99,6 @@ section:hover{
     cursor: pointer;
 }
 
-
 @media (min-width: 375px)
 {
     body{
@@ -120,6 +116,7 @@ section:hover{
         width: 19.5em;
     }
 }
+
 @media (min-width: 1448px){
 
     body{
