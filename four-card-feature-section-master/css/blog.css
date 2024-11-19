@@ -52,15 +52,6 @@ p{
     margin-bottom: 40px;
 }
 
-.main-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 2em;
-    gap: 2em;
-}
-
 .main-container section.super{
     border-top: 4px solid hsl(180, 62%, 55%);
 
