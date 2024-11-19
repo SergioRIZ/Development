@@ -91,7 +91,7 @@ section:hover{
 }
 
 
-@media (min-width: 375px)
+@media (min-width: 325px)
 {
     body{
         min-height: 200vh;
