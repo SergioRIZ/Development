@@ -11,8 +11,8 @@
 
 .main-container {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(6, 1fr);
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 0fr);
     font-family: "Barlow Semi Condensed", serif;
     gap: 30px;
     justify-content: center;
@@ -22,15 +22,16 @@
 .main-container .daniel{
     background-color: hsl(263, 55%, 52%);
     padding: 2em;
-    border-radius: 1em;
+    border-radius: 0.5em;
+    grid-column: 1;
+    grid-row: 1;
 }
 
 .main-container .daniel img {
-    width: 15%;
     border-radius: 50%;
     border: 3px solid hsl(263, 43%, 58%);
-    float: left;
     margin-right: 20px;
+    width: 15%;
 }
 
 .avatar{
@@ -40,7 +41,10 @@
 .main-container .jona{
     background-color: hsl(217, 19%, 35%);
     padding: 2em;
-    border-radius: 1em;
+    border-radius: 0.5em;
+    grid-column: 2;
+    grid-row: 1;
+
 }
 
 .main-container .jona img {
@@ -52,7 +56,9 @@
 .main-container .jean{
     background-color: hsl(0, 0%, 100%);
     padding: 2em;
-    border-radius: 1em;
+    border-radius: 0.5em;
+    grid-column: 1;
+    grid-row: 2;
 }
 
 .main-container .jean img {
@@ -60,10 +66,21 @@
     border-radius: 50%;
 }
 
+.jean p{
+    color: hsl(217, 19%, 35%)
+}
+
+.jean h2{
+    color: hsl(217, 19%, 35%);
+    font-weight: 200;
+}
+
 .main-container .patrick{
     background-color: hsl(219, 29%, 14%);
     padding: 2em;
-    border-radius: 1em;
+    border-radius: 0.5em;
+    grid-column: 2;
+    grid-row: 2;
 }
 
 .main-container .patrick img {
@@ -75,7 +92,9 @@
 .main-container .kira{
     background-color: hsl(0, 0%, 100%);
     padding: 2em;
-    border-radius: 1em;
+    border-radius: 0.5em;
+    grid-column: 3;
+    grid-row: 1;
 }
 
 .main-container .kira img {
@@ -83,29 +102,40 @@
     border-radius: 50%;
 }
 
+.kira p{
+    color: hsl(217, 19%, 35%)
+}
+
+.kira h2{
+    color: hsl(217, 19%, 35%);
+    font-weight: 200;
+}
+
 p{
     color: hsl(0, 0%, 81%);
+    font-weight: 500;
 }
 
 p span {
-    font-size: 1.1em;
-    font-weight: bold;
+    font-size: 2em;
+    font-weight: 600;
     color: hsl(0, 0%, 100%);
+
 }
 
 p span.grey {
     color: hsl(217, 19%, 35%);
-    font-weight: 600;
-    
+    font-weight: 500;
+
 }
 
 h1{
     color: hsl(0, 0%, 100%);
-
+    font-weight: 500;
 }
 
 
 h2{
     color: hsl(0, 0%, 81%);
-
+    font-weight: 500;
 }
