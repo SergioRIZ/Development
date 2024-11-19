@@ -90,6 +90,30 @@ section:hover{
     cursor: pointer;
 }
 
+footer{
+    display: grid;
+    bottom: 0;
+    width: 100%;
+    font-family: "Itim", cursive;
+}
+
+.link1{
+    justify-self: end; 
+}
+
+.link2{
+    justify-self: start; 
+}
+
+.link3{
+    justify-self: center; 
+}
+
+li {
+    list-style: none;
+}
+
+
 @media (min-width: 375px)
 {
     body{
@@ -111,8 +135,9 @@ section:hover{
 @media (min-width: 1448px){
 
     body{
-        min-height: 100vh;
+        min-height: 0vh;
     }
+
     main{
         flex-direction: row;
     }
