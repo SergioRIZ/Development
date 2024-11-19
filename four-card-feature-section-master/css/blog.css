@@ -107,6 +107,11 @@ section:hover{
     section p{
         width: 19.5em;
     }
+
+    .main-container{
+        display: grid;
+        gap: 20px;
+    }
 }
 
 @media (min-width: 1448px){
