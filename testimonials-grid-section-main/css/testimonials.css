@@ -15,6 +15,12 @@ body {
     line-height: 1.6;
     color: hsl(217, 19%, 35%);
     padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+
 }
 
 .main-container {
@@ -25,17 +31,7 @@ body {
     gap: 20px;
     max-width: 1500px;
     margin: 0 auto;
-}
 
-article {
-    border-radius: 15px;
-    padding: 20px;
-    position: relative;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    color: hsl(0, 0%, 100%);
 }
 
 article .avatar {
@@ -59,9 +55,9 @@ article .avatar-content {
 
 .main-container .daniel{
     background-color: hsl(263, 55%, 52%);
-    padding: 3em;
+    padding: 2em;
     border-radius: 0.5em;
-    width: 49em;
+    width: 45em;
     grid-area: daniel;
 }
 
@@ -78,9 +74,9 @@ article .avatar-content {
     background-color: hsl(217, 19%, 35%);
     padding: 2em;
     border-radius: 0.5em;
-    width: 20em;
+    width: 17.5em;
     grid-area: daniel jona;
-    margin-left: -18em;
+    margin-left: -22.7em;
 }
 
 .main-container .jona img {
