@@ -21,8 +21,6 @@
     width: 49em;
 }
 
-
-
 .main-container .daniel img {
     border-radius: 50%;
     border: 3px solid hsl(263, 43%, 58%);
@@ -53,8 +51,6 @@
     background-color: hsl(0, 0%, 100%);
     padding: 2em;
     border-radius: 0.5em;
-    grid-column-start: 2;
-    grid-column-end: 3;
     width: 20em;
 }
 
@@ -95,8 +91,6 @@
     background-color: hsl(0, 0%, 100%);
     padding: 2em;
     border-radius: 0.5em;
-    grid-column-start: 4;
-    grid-column-end: 5;
 }
 
 .main-container .kira img {
