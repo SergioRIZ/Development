@@ -20,7 +20,6 @@ body {
     align-items: center;
     flex-direction: column;
     height: 100vh;
-
 }
 
 .main-container {
@@ -31,7 +30,6 @@ body {
     gap: 20px;
     max-width: 1500px;
     margin: 0 auto;
-
 }
 
 article .avatar {
@@ -57,7 +55,7 @@ article .avatar-content {
     background-color: hsl(263, 55%, 52%);
     padding: 2em;
     border-radius: 0.5em;
-    width: 45em;
+    width: 46.5em;
     grid-area: daniel;
 }
 
@@ -68,7 +66,6 @@ article .avatar-content {
 .avatar{
     margin-bottom: 20px;
 }
-
 
 .main-container .jona{
     background-color: hsl(217, 19%, 35%);
@@ -90,6 +87,7 @@ article .avatar-content {
     border-radius: 0.5em;
     width: 20em;
     grid-area: jean;
+    box-shadow: 20px 5px 500px 5px rgba(72, 57, 148, 0.2);
 }
 
 .main-container .jean img {
@@ -120,7 +118,6 @@ article .avatar-content {
 .main-container .patrick img {
     border: 3px solid hsl(263, 43%, 58%);
     margin-right: 15px;
-
 }
 
 .main-container .kira{
@@ -129,6 +126,8 @@ article .avatar-content {
     border-radius: 0.5em;
     width: 15em;
     grid-area: kira;
+    box-shadow: 20px 5px 500px 5px rgba(72, 57, 148, 0.2);
+    margin-left: -1em;
 }
 
 .main-container .kira img {
@@ -154,20 +153,17 @@ p{
     margin-top: 20px;
     line-height: 1.3em;
     font-size: 18px;
-    
 }
 
 p span {
     font-size: 1.6em;
     font-weight: 600;
     color: hsl(0, 0%, 100%);
-
 }
 
 p span.grey {
     color: hsl(217, 19%, 35%);
     font-weight: 500;
-
 }
 
 h1{
