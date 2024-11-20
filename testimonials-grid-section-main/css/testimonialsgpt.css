@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    background-color: hsl(210, 36%, 96%);
+    line-height: 1.6;
+    color: hsl(217, 19%, 35%);
+    padding: 20px;
+}
+
+.main-container {
+    display: grid;
+    grid-template-areas:
+        "daniel daniel jona"
+        "patrick jean kira";
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* General Styles for Articles */
+article {
+    border-radius: 15px;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: hsl(0, 0%, 100%);
+}
+
+/* Avatar Styles */
+article .avatar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+article .avatar img {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    margin-right: 15px;
+    border: 2px solid rgba(255, 255, 255, 0.8);
+}
+
+article .avatar-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.username {
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+.text {
+    font-size: 0.9em;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+/* Specific Styles for Each Card */
+.daniel {
+    background-color: hsl(263, 55%, 52%);
+    grid-area: daniel;
+    padding: 40px;
+}
+
+.jona {
+    background-color: hsl(217, 19%, 35%);
+    grid-area: jona;
+    padding: 30px;
+}
+
+.jean {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(217, 19%, 35%);
+    grid-area: jean;
+}
+
+.jean p,
+.jean h1,
+.jean h2 {
+    color: hsl(217, 19%, 35%);
+}
+
+.patrick {
+    background-color: hsl(219, 29%, 14%);
+    grid-area: patrick;
+    padding: 40px;
+}
+
+.kira {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(217, 19%, 35%);
+    grid-area: kira;
+}
+
+.kira p,
+.kira h1,
+.kira h2 {
+    color: hsl(217, 19%, 35%);
+}
+
+/* Typography and Spacing */
+p {
+    font-weight: 300;
+    line-height: 1.5;
+    margin-top: 15px;
+}
+
+p span {
+    font-size: 1.1em;
+    font-weight: 700;
+    display: block;
+}
+
+h1 {
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 0.9em;
+    font-weight: 300;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .main-container {
+        grid-template-areas:
+            "daniel"
+            "jona"
+            "patrick"
+            "jean"
+            "kira";
+        grid-template-columns: 1fr;
+    }
+}
