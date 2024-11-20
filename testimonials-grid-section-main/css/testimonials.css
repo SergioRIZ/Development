@@ -10,64 +10,66 @@
 }
 
 .main-container {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(5, 0fr);
     font-family: "Barlow Semi Condensed", serif;
-    gap: 30px;
-    justify-content: center;
-    align-items: center;
+    gap: 20px;
 }
 
 .main-container .daniel{
     background-color: hsl(263, 55%, 52%);
-    padding: 2em;
+    padding: 3em;
     border-radius: 0.5em;
-    grid-column: 1;
-    grid-row: 1;
+    width: 49em;
 }
+
+
 
 .main-container .daniel img {
     border-radius: 50%;
     border: 3px solid hsl(263, 43%, 58%);
-    margin-right: 20px;
-    width: 15%;
+    margin-right: 15px;
+    max-width: 5%;
 }
 
 .avatar{
     margin-bottom: 20px;
 }
 
+
 .main-container .jona{
     background-color: hsl(217, 19%, 35%);
     padding: 2em;
     border-radius: 0.5em;
-    grid-column: 2;
-    grid-row: 1;
-
+    width: 18em;
 }
 
 .main-container .jona img {
-    width: 15%;
     border-radius: 50%;
     border: 2px solid hsl(0, 0%, 100%);
+    margin-right: 15px;
+    max-width: 14%;
 }
 
 .main-container .jean{
     background-color: hsl(0, 0%, 100%);
     padding: 2em;
     border-radius: 0.5em;
-    grid-column: 1;
-    grid-row: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    width: 20em;
 }
 
 .main-container .jean img {
-    width: 15%;
     border-radius: 50%;
+    margin-right: 15px;
+    max-width: 16%;
 }
 
 .jean p{
     color: hsl(217, 19%, 35%)
+}
+
+.jean h1{
+    color: hsl(217, 19%, 35%);
 }
 
 .jean h2{
@@ -79,30 +81,35 @@
     background-color: hsl(219, 29%, 14%);
     padding: 2em;
     border-radius: 0.5em;
-    grid-column: 2;
-    grid-row: 2;
+    width: 44em;
 }
 
 .main-container .patrick img {
-    width: 15%;
     border-radius: 50%;
     border: 3px solid hsl(263, 43%, 58%);
+    margin-right: 15px;
+    max-width: 5%;
 }
 
 .main-container .kira{
     background-color: hsl(0, 0%, 100%);
     padding: 2em;
     border-radius: 0.5em;
-    grid-column: 3;
-    grid-row: 1;
+    grid-column-start: 4;
+    grid-column-end: 5;
 }
 
 .main-container .kira img {
-    width: 15%;
     border-radius: 50%;
+    margin-right: 15px;
+    max-width: 16%;
 }
 
 .kira p{
+    color: hsl(217, 19%, 35%)
+}
+
+.kira h1{
     color: hsl(217, 19%, 35%)
 }
 
@@ -113,11 +120,15 @@
 
 p{
     color: hsl(0, 0%, 81%);
-    font-weight: 500;
+    font-weight: 300;
+    margin-top: 20px;
+    line-height: 1.3em;
+    font-size: 18px;
+    
 }
 
 p span {
-    font-size: 2em;
+    font-size: 1.6em;
     font-weight: 600;
     color: hsl(0, 0%, 100%);
 
@@ -132,10 +143,21 @@ p span.grey {
 h1{
     color: hsl(0, 0%, 100%);
     font-weight: 500;
+    font-size: 19px;
 }
 
 
 h2{
     color: hsl(0, 0%, 81%);
-    font-weight: 500;
+    font-weight: 200;
+    font-size: 16px;
+}
+
+.avatar{
+    display:flex;
+    align-items: center;
+}
+
+.avatar-content{
+flex: 1;
 }
