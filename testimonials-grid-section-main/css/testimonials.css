@@ -23,6 +23,11 @@ body {
 .main-container{
     gap: 20px;
     margin: 0 auto;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.main-container:hover {
+    box-shadow: 10px 30px 10px 10px rgba(0, 0, 0, 0.3);
 }
 
 svg {
