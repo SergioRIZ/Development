@@ -126,7 +126,7 @@ article .avatar-content {
     border-radius: 0.5em;
     width: 15em;
     grid-area: kira;
-    box-shadow: 20px 5px 500px 5px rgba(72, 57, 148, 0.2);
+    box-shadow: 20px 20px 500px 5px rgba(72, 57, 148, 0.2);
     margin-left: -1em;
 }
 
