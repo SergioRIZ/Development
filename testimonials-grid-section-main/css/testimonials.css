@@ -173,11 +173,6 @@ h2{
         max-width: 27.6em;
     }
 
-    svg{
-        margin-left:  11em;
-        margin-top: -2.1em;
-    }
-
 }
 
 @media (min-width: 1448px){
@@ -187,8 +182,8 @@ h2{
     }
 
     svg {
-        margin-left:  23em;
-        margin-top: -2em;
+            margin-left: 25em;
+            margin-top: -2.1em;
     }
 
     .main-container {
