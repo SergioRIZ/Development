@@ -12,68 +12,53 @@
 body {
     font-family: 'Barlow Semi Condensed', sans-serif;
     background-color: hsl(210, 36%, 96%);
-    line-height: 1.6;
     color: hsl(217, 19%, 35%);
     padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 100vh;
 }
 
-.main-container {
-    display: grid;
-    grid-template-areas:
-    "daniel daniel jona kira"
-    "jean patrick jona kira";;
+.main-container{
     gap: 20px;
-    max-width: 1500px;
     margin: 0 auto;
 }
 
-article .avatar {
-    display: flex;
-    align-items: center;
-    margin-bottom: 15px;
+svg {
+    position: absolute;
+    z-index: 1; 
+    opacity: 0.9;
 }
 
-article .avatar img {
-    border-radius: 50%;
-    width: 45px;
-    height: 45px;
-    margin-right: 15px;
-    border: 2px solid rgba(255, 255, 255, 0.8);
-}
-
-article .avatar-content {
-    display: flex;
-    flex-direction: column;
-}
-
-.main-container .daniel{
+.main-container .daniel {
     background-color: hsl(263, 55%, 52%);
     padding: 2em;
     border-radius: 0.5em;
-    width: 46.5em;
-    grid-area: daniel;
 }
 
 .main-container .daniel img {
     border: 3px solid hsl(263, 43%, 58%);
 }
 
-.avatar{
-    margin-bottom: 20px;
+article .avatar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    }
+
+article .avatar img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+    border: 2px solid rgba(255, 255, 255, 0.8);
 }
 
 .main-container .jona{
     background-color: hsl(217, 19%, 35%);
     padding: 2em;
     border-radius: 0.5em;
-    width: 17.5em;
-    grid-area: daniel jona;
-    margin-left: -22.7em;
 }
 
 .main-container .jona img {
@@ -81,21 +66,20 @@ article .avatar-content {
     margin-right: 15px;
 }
 
+.jona p{
+    margin-top: 20px;
+    line-height: 1.4em;
+}
+
 .main-container .jean{
     background-color: hsl(0, 0%, 100%);
     padding: 2em;
     border-radius: 0.5em;
-    width: 20em;
-    grid-area: jean;
     box-shadow: 20px 5px 500px 5px rgba(72, 57, 148, 0.2);
 }
 
-.main-container .jean img {
-    margin-right: 15px;
-}
-
 .jean p{
-    color: hsl(217, 19%, 35%)
+    color: hsl(217, 19%, 35%);
 }
 
 .jean h1{
@@ -111,27 +95,17 @@ article .avatar-content {
     background-color: hsl(219, 29%, 14%);
     padding: 2em;
     border-radius: 0.5em;
-    width: 44em;
-    grid-area: patrick;
 }
 
 .main-container .patrick img {
     border: 3px solid hsl(263, 43%, 58%);
-    margin-right: 15px;
 }
 
 .main-container .kira{
     background-color: hsl(0, 0%, 100%);
     padding: 2em;
     border-radius: 0.5em;
-    width: 15em;
-    grid-area: kira;
     box-shadow: 20px 20px 500px 5px rgba(72, 57, 148, 0.2);
-    margin-left: -1em;
-}
-
-.main-container .kira img {
-    margin-right: 15px;
 }
 
 .kira p{
@@ -153,12 +127,17 @@ p{
     margin-top: 20px;
     line-height: 1.3em;
     font-size: 18px;
+    position: relative;
+    z-index: 2;
 }
 
 p span {
     font-size: 1.6em;
     font-weight: 600;
     color: hsl(0, 0%, 100%);
+    position: relative;
+    z-index: 2;
+    line-height: 1.2em;
 }
 
 p span.grey {
@@ -170,20 +149,88 @@ h1{
     color: hsl(0, 0%, 100%);
     font-weight: 500;
     font-size: 19px;
+    position: relative;
+    z-index: 2;
 }
-
 
 h2{
     color: hsl(0, 0%, 81%);
     font-weight: 200;
     font-size: 16px;
+    position: relative;
+    z-index: 2;
 }
 
-.avatar{
-    display:flex;
-    align-items: center;
+
+@media (min-width: 375px){
+
+    .main-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+        gap: 2em;
+        max-width: 27.6em;
+    }
+
+    svg{
+        margin-left:  11em;
+        margin-top: -2.1em;
+    }
+
 }
 
-.avatar-content{
-flex: 1;
+@media (min-width: 1448px){
+
+    body{
+        height: 100vh;
+    }
+
+    svg {
+        margin-left:  23em;
+        margin-top: -2em;
+    }
+
+    .main-container {
+        display: grid;
+        grid-template-areas:
+        "daniel daniel jona kira"
+        "jean patrick jona kira";;
+        max-width: 1500px;
+    }
+
+    .main-container .daniel{
+        width: 43em;
+        grid-area: daniel;
+    }
+
+    .main-container .jona{
+        width: 19em;
+        grid-area: daniel jona;
+        margin-left: -24.2em;
+    }
+
+    .main-container .jean{
+        width: 18em;
+        grid-area: jean;
+    }
+
+    .jean p{
+        width: 15em;
+    }
+
+    .main-container .patrick{
+        width: 44em;
+        grid-area: patrick;
+    }
+
+    .main-container .kira{
+        width: 16em;
+        grid-area: kira;
+        margin-left: -1em;
+    }
+
+    .main-container .kira img {
+        margin-right: 15px;
+    }
 }
