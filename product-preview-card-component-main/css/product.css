@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Faculty+Glyphic&family=Itim&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Faculty+Glyphic&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Itim&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap');
 
-/* Estilos generales */
 main {
     flex-direction: row;
 }
@@ -51,12 +50,8 @@ p {
     position: absolute;
 }
 
-svg{
-
-}
-
 button {
- display: flex; 
+  display: flex; 
   align-items: center; 
   justify-content: center; 
   gap: 0.5em; 
@@ -114,7 +109,6 @@ button:hover {
 
 }
 
-
 @media (min-width: 1448px) {
     img {
         border-radius: 1.2em 0 0 1.2em;
@@ -133,6 +127,7 @@ button:hover {
     .main-container {
         max-width: 47em;
     }
+
     h1 {
     font-size: 1em;
     font-weight: 300;
